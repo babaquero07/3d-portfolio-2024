@@ -8,5 +8,8 @@
         "contact": "Contact"
       }
     }
+  },
+  "pages": {
+    "home": {}
   }
 }
