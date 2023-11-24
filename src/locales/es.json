@@ -1,0 +1,12 @@
+{
+  "components": {
+    "navbar": {
+      "links": {
+        "home": "Inicio",
+        "about": "Acerca de mí",
+        "projects": "Proyectos",
+        "contact": "Contacto"
+      }
+    }
+  }
+}
