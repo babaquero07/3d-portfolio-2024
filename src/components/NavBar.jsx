@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 const ChangeLanguageOption = ({ i8n }) => {
   return (
     <select
-      className="rounded-md leading-tight focus:outline-none focus:border-blue-500 text-[18px] font-medium cursor-pointer"
+      className="bg-transparent rounded-md leading-tight focus:outline-none focus:border-blue-500 text-[18px] font-medium cursor-pointer"
       name="language"
       id="language"
       onChange={({ target }) => i8n.changeLanguage(target.value)}
