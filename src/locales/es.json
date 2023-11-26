@@ -7,6 +7,15 @@
         "projects": "Proyectos",
         "contact": "Contacto"
       }
+    },
+    "homeInfo": {
+      "greeting": "Hola, soy <span className='font-semibold'>Alexander Baquero.</span>👋🏼<br/>Desarrollo interfaces de usuario y aplicaciones web.",
+      "about": "Frontend Developer con experiencia profesional y académica en la creación de aplicaciones web.",
+      "projects": "Los siguientes proyectos muestran mis habilidades y experiencia en el desarrollo web. Cada proyecto va acompañado de una breve descripción e incluye enlaces a sus respectivos repositorios de código y demostraciones en vivo.",
+      "contact": "Quieres trabajar conmigo o simplemente saludar, no dudes en contactarme.",
+      "cta_contact": "Contactar",
+      "seeProjects": "Ver proyectos",
+      "learnMore": "Leer más"
     }
   },
   "pages": {

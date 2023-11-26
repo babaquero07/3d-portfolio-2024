@@ -7,6 +7,15 @@
         "projects": "Projects",
         "contact": "Contact"
       }
+    },
+    "homeInfo": {
+      "greeting": "Hi, I'm <span className='font-semibold'>Alexander Baquero.</span>👋🏼<br/>I develop user interfaces and web applications.",
+      "about": "I'm a skilled software developer with both professional and academic background creating Web applications.",
+      "projects": "Following projects showcases my skills and experience in web development. Each project is accompanied by a brief description and includes links to their respective code repositories and live demos.",
+      "contact": "If you have any questions or would like to work together, please feel free to contact me.",
+      "cta_contact": "Let's talk",
+      "seeProjects": "Know more",
+      "learnMore": "Learn more"
     }
   },
   "pages": {
