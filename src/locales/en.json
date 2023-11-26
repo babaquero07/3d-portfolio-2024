@@ -19,6 +19,23 @@
     }
   },
   "pages": {
+    "contact": {
+      "title": "Get in touch",
+      "form": {
+        "labels": {
+          "name": "Name",
+          "email": "Email",
+          "message": "Message"
+        },
+        "placeholders": {
+          "name": "Your name",
+          "email": "Your email",
+          "message": "Your message..."
+        },
+        "submit": "Send message",
+        "sendingMessage": "Sending message..."
+      }
+    },
     "home": {}
   }
 }
