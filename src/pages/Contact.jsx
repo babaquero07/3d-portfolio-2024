@@ -1,12 +1,41 @@
 import { useState, useRef } from "react";
 import { useTranslation } from "react-i18next";
 
+import emailjs from "@emailjs/browser";
+
 const Contact = () => {
   const [t, _] = useTranslation("global");
 
   const formRef = useRef(null);
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [isLoading, setIsLoading] = useState(false);
+
+  const sendEmail = () => {
+    setIsLoading(true);
+
+    emailjs
+      .send(
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        {
+          from_name: form.name,
+          from_email: form.email,
+          to_email: "brayanalexanderb@gmail.com",
+          message: form.message,
+        },
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+      )
+      .then((result) => {
+        console.log(result.text);
+        setForm({ name: "", email: "", message: "" });
+      })
+      .catch((error) => {
+        console.log(error.text);
+      })
+      .finally(() => {
+        setIsLoading(false);
+      });
+  };
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -19,6 +48,8 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsLoading(true);
+
+    sendEmail();
   };
 
   return (
