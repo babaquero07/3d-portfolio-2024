@@ -33,7 +33,9 @@
           "message": "Your message..."
         },
         "submit": "Send message",
-        "sendingMessage": "Sending message..."
+        "sendingMessage": "Sending message...",
+        "successMessage": "Message sent successfully!",
+        "errorMessage": "An error occurred while sending the message. Please try again later."
       }
     },
     "home": {}

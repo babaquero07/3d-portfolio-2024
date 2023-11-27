@@ -33,7 +33,9 @@
           "message": "Tu mensaje..."
         },
         "submit": "Enviar mensaje",
-        "sendingMessage": "Enviando mensaje..."
+        "sendingMessage": "Enviando mensaje...",
+        "successMessage": "Mensaje enviado.",
+        "failMessage": "Error al enviar mensaje."
       }
     },
     "home": {}

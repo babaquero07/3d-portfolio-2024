@@ -8,6 +8,9 @@ import { Canvas } from "@react-three/fiber";
 import Fox from "../models/Fox";
 import Loader from "../components/Loader";
 
+import useAlert from "../hooks/useAlert";
+import Alert from "../components/Alert";
+
 const Contact = () => {
   const [t, _] = useTranslation("global");
 
@@ -15,6 +18,8 @@ const Contact = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [isLoading, setIsLoading] = useState(false);
   const [currentAnimation, setCurrentAnimation] = useState("idle");
+
+  const { alert, showAlert, hideAlert } = useAlert();
 
   const sendEmail = () => {
     setIsLoading(true);
@@ -33,14 +38,28 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(() => {
+        showAlert({
+          text: t("pages.contact.form.successMessage"),
+          type: "success",
+        });
+
         setForm({ name: "", email: "", message: "" });
       })
       .catch((error) => {
         console.log(error.text);
+
+        showAlert({
+          text: t("pages.contact.form.errorMessage"),
+          type: "danger",
+        });
       })
       .finally(() => {
         setIsLoading(false);
         setCurrentAnimation("idle");
+
+        setTimeout(() => {
+          hideAlert();
+        }, 3000);
       });
   };
 
@@ -65,6 +84,8 @@ const Contact = () => {
 
   return (
     <section className="relative flex lg:flex-row flex-col max-container">
+      {alert.show && <Alert {...alert} />}
+
       <div className="flex-1 min-w-[50%] flex flex-col">
         <h1 className="head-text">{t("pages.contact.title")}</h1>
 
