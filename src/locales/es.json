@@ -9,8 +9,8 @@
       }
     },
     "homeInfo": {
-      "greeting": "Hola, soy <span className='font-semibold'>Alexander Baquero.</span>👋🏼<br/>Desarrollo interfaces de usuario y aplicaciones web.",
-      "about": "Frontend Developer con experiencia profesional y académica en la creación de aplicaciones web.",
+      "greeting": "Hola, soy <span class='font-semibold'>Alexander Baquero.</span>👋🏼<br/>Desarrollo interfaces de usuario y aplicaciones web.",
+      "about": "Desarrollador web con experiencia profesional y académica en la creación de aplicaciones web.",
       "projects": "Los siguientes proyectos muestran mis habilidades y experiencia en el desarrollo web. Cada proyecto va acompañado de una breve descripción e incluye enlaces a sus respectivos repositorios de código y demostraciones en vivo.",
       "contact": "Quieres trabajar conmigo o simplemente saludar, no dudes en contactarme.",
       "cta_contact": "Contactar",
@@ -38,6 +38,53 @@
         "failMessage": "Error al enviar mensaje."
       }
     },
-    "home": {}
+    "about": {
+      "title": "Hola, soy <span class='blue-gradient_text font-semibold drop-shadow'>Alexander Baquero</span>",
+      "profileDescription": "Desarrollador web con experiencia profesional y académica en la creación de aplicaciones web. Utilizo los stacks MERN o MEVN para generar proyectos escalables y moduralizables. Excelente capacidad de aprendizaje y una gran adaptabilidad a diferentes entornos y grupos laborales. Me apasiona la tecnología y me encanta trabajar en proyectos que me permitan aprender y crecer profesionalmente.",
+      "skillsTitle": "Mis habilidades",
+      "workExperienceTitle": "Experiencia laboral",
+      "workExperienceSubText": "Lo que he hecho hasta ahora:",
+      "workExperience": {
+        "gcf": {
+          "date": "Junio 2022 - Actualidad",
+          "responsabilites": [
+            "Diseño y desarrollo de aplicaciones web: Trabajar en la creación de aplicaciones web utilizando herramientas como HTML, CSS, JavaScript y otras tecnologías de programación.",
+            "Implementación de servidores y APIs: Creación de servidores y APIs utilizando tecnologías como Node.js y Express, para permitir que las aplicaciones web se comuniquen con bases de datos y otros servicios.",
+            "Pruebas y depuración de aplicaciones: Identificación y corrección de errores y problemas en las aplicaciones desarrolladas.",
+            "Colaboración con otros miembros del equipo de desarrollo: Trabajo en conjunto con otros desarrolladores, diseñadores y profesionales de la tecnología para completar proyectos y lograr objetivos comunes."
+          ]
+        },
+        "btp": {
+          "date": "Abril 2022 - Mayo 2022",
+          "responsabilites": [
+            "Desarrollo y mantenimiento de aplicaciones web utilizando Next.js, Python, FastAPI, MongoDB y otras tecnologías relacionadas.",
+            "Mantenimiento del software",
+            "Creación de nuevas funcionalidades en base a los requerimientos del cliente",
+            "Proponer ideas de mejora del software."
+          ]
+        },
+        "soporte": {
+          "date": "Agosto 2020 - Febrero 2021",
+          "responsabilites": [
+            "Proyecto Coca-Cola FEMSA.",
+            "Atender las consultas de apoyo de los clientes.",
+            "Administración de software y herramientas de asistencia técnica.",
+            "Realizar mantenimiento preventivo y correctivo de los equipos de computo",
+            "Delegar las consultas a el canal de apoyo apropiado.",
+            "Diagnóstico y solución de problemas de los clientes.",
+            "Estar al día en los productos y servicios de la empresa."
+          ]
+        },
+        "henryTA": {
+          "date": "Enero 2022 - Marzo 2022",
+          "responsabilites": [
+            "Coordinar a un grupo de estudiantes para lograr la integración al grupo de estudio.",
+            "Orientar a los estudiantes en los primeros pasos de la cursada.",
+            "Asistir la resolución de ejercicios y promover la colaboración grupal (Pair Programming).",
+            "Proponer ideas para la mejora de los procesos del Bootcamp."
+          ]
+        }
+      }
+    }
   }
 }

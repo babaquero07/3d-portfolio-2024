@@ -9,7 +9,7 @@
       }
     },
     "homeInfo": {
-      "greeting": "Hi, I'm <span className='font-semibold'>Alexander Baquero.</span>👋🏼<br/>I develop user interfaces and web applications.",
+      "greeting": "Hi, I'm <span class='font-semibold'>Alexander Baquero.</span>👋🏼<br/>I develop user interfaces and web applications.",
       "about": "I'm a skilled software developer with both professional and academic background creating Web applications.",
       "projects": "Following projects showcases my skills and experience in web development. Each project is accompanied by a brief description and includes links to their respective code repositories and live demos.",
       "contact": "If you have any questions or would like to work together, please feel free to contact me.",
@@ -38,6 +38,53 @@
         "errorMessage": "An error occurred while sending the message. Please try again later."
       }
     },
-    "home": {}
+    "about": {
+      "title": "Hi, I'm <span class='blue-gradient_text font-semibold drop-shadow'>Alexander Baquero</span>",
+      "profileDescription": "I'm a skilled software developer with both professional and academic background creating Web applications. I use the MERN or MEVN stacks to develop scalable and modular projects. I possess excellent learning ability and a high level of adaptability to different work environments and teams. I am passionate about technology and I love working on projects that allow me to learn and grow professionally.",
+      "skillsTitle": "My skills",
+      "workExperienceTitle": "Work experience",
+      "workExperienceSubText": "What I have done so far:",
+      "workExperience": {
+        "gcf": {
+          "date": "June 2022 - Present",
+          "responsabilites": [
+            "Design and development of web applications: Working on the creation of web applications using tools such as HTML, CSS, JavaScript, and other programming technologies.",
+            "Implementation of servers and APIs: Creating servers and APIs using technologies such as Node.js and Express to enable web applications to communicate with databases and other services",
+            "Testing and debugging of applications: Identifying and fixing errors and issues in the developed applications.",
+            "Collaboration with other members of the development team: Working together with other developers, designers, and technology professionals to complete projects and achieve common goals."
+          ]
+        },
+        "btp": {
+          "date": "April 2022 - May 2022",
+          "responsabilites": [
+            "Developing and maintaining web applications using Next.js, Python, fastAPI, MongoDB and other related technologies.",
+            "Maintenance of analytical software.",
+            "Creating new functionalities based on client requirements.",
+            "Proposing software improvement ideas."
+          ]
+        },
+        "soporte": {
+          "date": "August 2020 - February 2021",
+          "responsabilites": [
+            "Coca-Cola FEMSA project.",
+            "Addressing customer support inquiries.",
+            "Managing software and technical support tools.",
+            "Performing preventive and corrective maintenance of computer equipment.",
+            "Escalating inquiries to the appropriate support channel.",
+            "Diagnosing and resolving customer issues.",
+            "Staying up-to-date on company products and services."
+          ]
+        },
+        "henryTA": {
+          "date": "January 2022 - March 2022",
+          "responsabilites": [
+            "Coordinating a group of students to achieve integration within the study group.",
+            "Guiding students in their initial steps of the course.",
+            "Assisting in exercise resolution and promoting group collaboration (Pair Programming).",
+            "Proposing ideas for improving Bootcamp processes."
+          ]
+        }
+      }
+    }
   }
 }
