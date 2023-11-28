@@ -8,6 +8,8 @@ import { useTranslation } from "react-i18next";
 
 import { skills, experiences } from "../constants";
 
+import CTA from "../components/CTA";
+
 const About = () => {
   const [t, _] = useTranslation("global");
 
@@ -112,6 +114,10 @@ const About = () => {
           </VerticalTimeline>
         </div>
       </div>
+
+      <hr className="border-slate-200" />
+
+      <CTA />
     </section>
   );
 };
