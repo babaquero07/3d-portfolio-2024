@@ -16,6 +16,9 @@
       "cta_contact": "Contactar",
       "seeProjects": "Ver proyectos",
       "learnMore": "Leer más"
+    },
+    "footer": {
+      "text": "© Adaptado de <strong><a href='https://www.youtube.com/@javascriptmastery' target='_blank'>JavaScript mastery</a></strong>. Todos los derechos reservados."
     }
   },
   "pages": {

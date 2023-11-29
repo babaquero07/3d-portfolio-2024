@@ -11,6 +11,8 @@ import Loader from "../components/Loader";
 import useAlert from "../hooks/useAlert";
 import Alert from "../components/Alert";
 
+import Footer from "../components/Footer";
+
 const Contact = () => {
   const [t, _] = useTranslation("global");
 
@@ -83,98 +85,102 @@ const Contact = () => {
   };
 
   return (
-    <section className="relative flex lg:flex-row flex-col max-container h-[100vh]">
-      {alert.show && <Alert {...alert} />}
+    <>
+      <section className="relative flex lg:flex-row flex-col max-container h-[100vh]">
+        {alert.show && <Alert {...alert} />}
 
-      <div className="flex-1 min-w-[50%] flex flex-col">
-        <h1 className="head-text">{t("pages.contact.title")}</h1>
+        <div className="flex-1 min-w-[50%] flex flex-col">
+          <h1 className="head-text">{t("pages.contact.title")}</h1>
 
-        <form
-          ref={formRef}
-          className="w-full flex flex-col gap-7 mt-14"
-          onSubmit={handleSubmit}
-        >
-          <label className="text-black-500 font-semibold">
-            {t("pages.contact.form.labels.name")}
-            <input
-              value={form.name}
-              onChange={handleChange}
-              onFocus={handleFocus}
-              onBlur={handleBlur}
-              type="text"
-              name="name"
-              className="input"
-              placeholder={t("pages.contact.form.placeholders.name")}
-              required
-            />
-          </label>
-          <label className="text-black-500 font-semibold">
-            {t("pages.contact.form.labels.email")}
-            <input
-              value={form.email}
-              onChange={handleChange}
-              onFocus={handleFocus}
-              onBlur={handleBlur}
-              type="email"
-              name="email"
-              className="input"
-              placeholder={t("pages.contact.form.placeholders.email")}
-              required
-            />
-          </label>
-          <label className="text-black-500 font-semibold">
-            {t("pages.contact.form.labels.message")}
-            <textarea
-              value={form.message}
-              onChange={handleChange}
-              onFocus={handleFocus}
-              onBlur={handleBlur}
-              type="text"
-              name="message"
-              rows={4}
-              className="textarea"
-              placeholder={t("pages.contact.form.placeholders.message")}
-              required
-            />
-          </label>
-
-          <button
-            type="submit"
-            className="btn"
-            disabled={isLoading}
-            onFocus={handleFocus}
-            onBlur={handleBlur}
+          <form
+            ref={formRef}
+            className="w-full flex flex-col gap-7 mt-14"
+            onSubmit={handleSubmit}
           >
-            {isLoading
-              ? t("pages.contact.form.sendingMessage")
-              : t("pages.contact.form.submit")}
-          </button>
-        </form>
-      </div>
+            <label className="text-black-500 font-semibold">
+              {t("pages.contact.form.labels.name")}
+              <input
+                value={form.name}
+                onChange={handleChange}
+                onFocus={handleFocus}
+                onBlur={handleBlur}
+                type="text"
+                name="name"
+                className="input"
+                placeholder={t("pages.contact.form.placeholders.name")}
+                required
+              />
+            </label>
+            <label className="text-black-500 font-semibold">
+              {t("pages.contact.form.labels.email")}
+              <input
+                value={form.email}
+                onChange={handleChange}
+                onFocus={handleFocus}
+                onBlur={handleBlur}
+                type="email"
+                name="email"
+                className="input"
+                placeholder={t("pages.contact.form.placeholders.email")}
+                required
+              />
+            </label>
+            <label className="text-black-500 font-semibold">
+              {t("pages.contact.form.labels.message")}
+              <textarea
+                value={form.message}
+                onChange={handleChange}
+                onFocus={handleFocus}
+                onBlur={handleBlur}
+                type="text"
+                name="message"
+                rows={4}
+                className="textarea"
+                placeholder={t("pages.contact.form.placeholders.message")}
+                required
+              />
+            </label>
 
-      <div className="lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px]">
-        <Canvas
-          camera={{
-            position: [0, 0, 5],
-            fov: 75,
-            near: 0.1,
-            far: 1000,
-          }}
-        >
-          <directionalLight intensity={2.5} position={[0, 0, 1]} />
-          <ambientLight intensity={0.5} />
+            <button
+              type="submit"
+              className="btn"
+              disabled={isLoading}
+              onFocus={handleFocus}
+              onBlur={handleBlur}
+            >
+              {isLoading
+                ? t("pages.contact.form.sendingMessage")
+                : t("pages.contact.form.submit")}
+            </button>
+          </form>
+        </div>
 
-          <Suspense fallback={<Loader />}>
-            <Fox
-              currentAnimation={currentAnimation}
-              position={[0.5, 0.35, 0]}
-              rotation={[12.6, -0.6, 0]}
-              scale={[0.5, 0.5, 0.5]}
-            />
-          </Suspense>
-        </Canvas>
-      </div>
-    </section>
+        <div className="lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px]">
+          <Canvas
+            camera={{
+              position: [0, 0, 5],
+              fov: 75,
+              near: 0.1,
+              far: 1000,
+            }}
+          >
+            <directionalLight intensity={2.5} position={[0, 0, 1]} />
+            <ambientLight intensity={0.5} />
+
+            <Suspense fallback={<Loader />}>
+              <Fox
+                currentAnimation={currentAnimation}
+                position={[0.5, 0.35, 0]}
+                rotation={[12.6, -0.6, 0]}
+                scale={[0.5, 0.5, 0.5]}
+              />
+            </Suspense>
+          </Canvas>
+        </div>
+      </section>
+      <hr className="border-slate-200 mb-6" />
+      <Footer />
+    </>
   );
 };
 

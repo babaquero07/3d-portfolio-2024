@@ -16,6 +16,9 @@
       "cta_contact": "Let's talk",
       "seeProjects": "Know more",
       "learnMore": "Learn more"
+    },
+    "footer": {
+      "text": "© Adapted from <strong><a href='https://www.youtube.com/@javascriptmastery' target='_blank'>JavaScript mastery</a></strong>. All rights reserved."
     }
   },
   "pages": {
@@ -85,7 +88,7 @@
           ]
         }
       },
-      "cta": "Contac"
+      "cta": "Contact"
     },
     "projects": {
       "title": "My projects",
