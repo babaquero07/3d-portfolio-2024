@@ -86,6 +86,23 @@
         }
       },
       "cta": "Contáctame"
+    },
+    "projects": {
+      "title": "Mis proyectos",
+      "description": "Los siguientes proyectos muestran mis habilidades y experiencia en el desarrollo web. Cada proyecto va acompañado de una breve descripción e incluye enlaces a sus respectivos repositorios de código y demostraciones en vivo. Estos proyectos son ejemplos tangibles de mi capacidad para abordar problemas complejos, trabajar con diversas tecnologías y gestionar proyectos con éxito.",
+      "projectsDescriptions": {
+        "spotifu": "Clon exacto de la interfaz web de Spotify. Todo el proyecto se adaptará solo cambiando un tamaño de fuente. Realizado con modernas técnicas de maquetación y 100% accesible.",
+        "pokemon": "Aplicación web estática que proporciona a los usuarios una experiencia dinámica centrada en una amplia colección de pokémones. Permite a los usuarios explorar e interactuar con numerosos pokémones, lo que les permite guardar sus criaturas favoritas y profundizar en detalles completos sobre los atributos y características de cada pokémon.",
+        "rickandmorty": "El proyecto se conecta con la API de Rick and Morty y recupera información de unos 150 caracteres. Permite al usuario interactuar con la información proporcionada por la API mediante la aplicación de filtros por género, estado y especie. Además, el proyecto incluye una página para que los usuarios agreguen, editen y eliminen comentarios.",
+        "batatabit": "Proyecto desarrollado en el curso Mobile First de Platzi, que enfatiza la implementación de la metodología BEM para CSS.",
+        "calendar": "Clon de la interfaz web de Google Calendar.",
+        "countrysearch": "Experiencia interactiva donde los usuarios pueden buscar y explorar información detallada sobre países, utilizando tecnologías modernas como Apollo Client, React y GraphQL para lograr una interfaz de usuario fluida y eficiente.",
+        "ecommerce": "Proyecto final y grupal del bootcamp Soy Henry. Prueba nuestra competencia en una amplia gama de tecnologías, lo que demuestra nuestra capacidad para construir una plataforma de comercio electrónico completamente funcional. Con funciones como integración de pagos, reseñas de productos, un chatbot y un panel de administración, la plataforma brinda una experiencia de compra intuitiva y sin inconvenientes para los usuarios, al tiempo que ofrece herramientas de administración convenientes para los administradores del sitio.",
+        "foodrecipes": "Interfaz fácil de usar para explorar, descubrir y crear recetas de comida. Con la integración de la API Spoonacular, los usuarios tienen acceso a una amplia colección de recetas junto con detalles relevantes. Ya sea que busque recetas específicas, filtre y clasifique los resultados o cree recetas personales, la aplicación brinda una experiencia atractiva y sin interrupciones tanto para los entusiastas de la comida como para los cocineros caseros.",
+        "inmobilapp": "Proyecto final y grupal del bootcamp Soy Henry. Cuenta con funciones como la integración de pagos, revisiones de productos y un panel de administración, nuestra plataforma proporciona una experiencia de compra intuitiva y sin inconvenientes para los usuarios al tiempo que ofrece herramientas de administración convenientes para los administradores.",
+        "triviachallenge": "Prueba técnica FullStack con el stack [MERN]."
+      },
+      "cta": "Ver proyecto"
     }
   }
 }

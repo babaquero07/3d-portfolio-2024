@@ -28,6 +28,16 @@ import {
   henry,
   btp,
   gcf,
+  spotify,
+  pokemon,
+  rick,
+  batatabit,
+  calendar,
+  country,
+  cart,
+  food,
+  house,
+  trivia,
 } from "../assets/icons";
 
 export const skills = [
@@ -164,51 +174,73 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: pricewise,
+    id: "spotifu",
+    iconUrl: spotify,
     theme: "btn-back-red",
-    name: "Amazon Price Tracker",
-    description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
+    name: "Spotifu",
+    link: "https://github.com/babaquero07/Spotifu",
   },
   {
-    iconUrl: threads,
-    theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
-    description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
-  },
-  {
-    iconUrl: car,
-    theme: "btn-back-blue",
-    name: "Car Finding App",
-    description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
-  },
-  {
-    iconUrl: snapgram,
-    theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
-    description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
-  },
-  {
-    iconUrl: estate,
-    theme: "btn-back-black",
-    name: "Real-Estate Application",
-    description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://github.com/adrianhajdin/projects_realestate",
-  },
-  {
-    iconUrl: summiz,
+    id: "pokemon",
+    iconUrl: pokemon,
     theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
-    description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+    name: "Pokemon Static",
+    link: "https://github.com/babaquero07/pokemon-static-NextJS",
+  },
+  {
+    id: "rickandmorty",
+    iconUrl: rick,
+    theme: "btn-back-blue",
+    name: "Rick and Morty - Vanilla JS",
+    link: "https://github.com/babaquero07/taller-unidad-1-2",
+  },
+  {
+    id: "batatabit",
+    iconUrl: batatabit,
+    theme: "btn-back-pink",
+    name: "BatataBit",
+    link: "https://github.com/babaquero07/batata-bit",
+  },
+  {
+    id: "calendar",
+    iconUrl: calendar,
+    theme: "btn-back-black",
+    name: "Calendar",
+    link: "https://github.com/babaquero07/calendario",
+  },
+  {
+    id: "countrysearch",
+    iconUrl: country,
+    theme: "btn-back-red",
+    name: "Country Search",
+    link: "https://github.com/babaquero07/country-search",
+  },
+  {
+    id: "ecommerce",
+    iconUrl: cart,
+    theme: "btn-back-pink",
+    name: "E-commerce",
+    link: "https://www.linkedin.com/posts/carla-faes_buenas-tardes-quiero-compartirles-el-video-ugcPost-6920831465534427136-VD5k/?utm_source=share&utm_medium=member_desktop",
+  },
+  {
+    id: "foodrecipes",
+    iconUrl: food,
+    theme: "btn-back-yellow",
+    name: "Food Recipes",
+    link: "https://food-recipes-one.vercel.app/",
+  },
+  {
+    id: "inmobilapp",
+    iconUrl: house,
+    theme: "btn-back-blue",
+    name: "InmobilApp",
+    link: "https://github.com/InmobilApp",
+  },
+  {
+    id: "triviachallenge",
+    iconUrl: trivia,
+    theme: "btn-back-red",
+    name: "Trivia Challenge",
+    link: "https://github.com/babaquero07/trivia-challenge-client",
   },
 ];

@@ -35,6 +35,17 @@ import henry from "./henry.webp";
 import btp from "./btp.jpeg";
 import gcf from "./gcf.svg";
 
+import spotify from "./spotify.svg";
+import pokemon from "./pokemon.png";
+import rick from "./rick.svg";
+import batatabit from "./batatabit.svg";
+import calendar from "./calendar.svg";
+import country from "./country.png";
+import cart from "./cart.png";
+import food from "./food.png";
+import house from "./house.svg";
+import trivia from "./trivia.png";
+
 export {
   css,
   express,
@@ -71,4 +82,14 @@ export {
   henry,
   btp,
   gcf,
+  spotify,
+  pokemon,
+  rick,
+  batatabit,
+  calendar,
+  country,
+  cart,
+  food,
+  house,
+  trivia,
 };
