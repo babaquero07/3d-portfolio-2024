@@ -1,9 +1,6 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
-  car,
   contact,
   css,
-  estate,
   express,
   git,
   github,
@@ -12,14 +9,11 @@ import {
   linkedin,
   mongodb,
   nodejs,
-  pricewise,
   react,
+  nextjs,
   redux,
   sass,
-  snapgram,
-  summiz,
   tailwindcss,
-  threads,
   typescript,
   vue,
   pinia,
@@ -82,8 +76,8 @@ export const skills = [
     type: "Frontend",
   },
   {
-    imageUrl: nuxt,
-    name: "Nuxt 3",
+    imageUrl: nextjs,
+    name: "Next.js",
     type: "Frontend",
   },
   {
@@ -173,6 +167,13 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  {
+    id: "teslo-shop",
+    iconUrl: nextjs,
+    theme: "btn-back-black",
+    name: "Teslo Shop",
+    link: "https://babaquero07-teslo-shop.vercel.app/",
+  },
   {
     id: "spotifu",
     iconUrl: spotify,
