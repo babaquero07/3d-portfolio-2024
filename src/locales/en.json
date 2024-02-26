@@ -43,7 +43,7 @@
     },
     "about": {
       "title": "Hi, I'm <span class='blue-gradient_text font-semibold drop-shadow'>Alexander Baquero</span>",
-      "profileDescription": "I'm a skilled software developer with both professional and academic background creating Web applications. I use the MERN or MEVN stacks to develop scalable and modular projects. I possess excellent learning ability and a high level of adaptability to different work environments and teams. I am passionate about technology and I love working on projects that allow me to learn and grow professionally.",
+      "profileDescription": "As a web developer, I have cultivated technical skills and achieved notable milestones. On the frontend, I have worked with key technologies such as HTML, CSS, and JavaScript, utilizing frameworks like React, Next.js, and Vue 3. <br/><br/> In the backend, I have contributed to robust development using NodeJS + Express, Typescript, and REST services. My database management skills encompass PostgreSQL and MongoDB, with a focus on design and implementation. <br/><br/> My experience includes the implementation of unit tests and efficient project management under agile methodologies. Additionally, I have optimized projects for SEO, ensuring prominent positioning in search engines. I am passionate about technology and enjoy working on projects that allow me to learn and grow professionally. <br/><br/> I am always seeking new challenges, ready to tackle new problems to enhance my skills and deliver high-quality solutions",
       "skillsTitle": "My skills",
       "workExperienceTitle": "Work experience",
       "workExperienceSubText": "What I have done so far:",

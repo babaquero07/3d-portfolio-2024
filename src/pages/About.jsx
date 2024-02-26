@@ -33,7 +33,11 @@ const About = () => {
         ></h1>
 
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
-          <p>{t("pages.about.profileDescription")}</p>
+          <p
+            dangerouslySetInnerHTML={{
+              __html: t("pages.about.profileDescription"),
+            }}
+          ></p>
         </div>
 
         <div className="py-10 flex flex-col">

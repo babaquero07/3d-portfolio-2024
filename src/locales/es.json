@@ -43,7 +43,7 @@
     },
     "about": {
       "title": "Hola, soy <span class='blue-gradient_text font-semibold drop-shadow'>Alexander Baquero</span>",
-      "profileDescription": "Desarrollador web con experiencia profesional y académica en la creación de aplicaciones web. Utilizo los stacks MERN o MEVN para generar proyectos escalables y moduralizables. Excelente capacidad de aprendizaje y una gran adaptabilidad a diferentes entornos y grupos laborales. Me apasiona la tecnología y me encanta trabajar en proyectos que me permitan aprender y crecer profesionalmente.",
+      "profileDescription": "Como desarrollador web, he cultivado habilidades técnicas y logros notables. En el frontend, he trabajado con tecnologías clave como HTML, CSS y JavaScript, utilizando frameworks como React, Next.js y Vue 3. <br/><br/> En el backend, he contribuido al desarrollo sólido utilizando NodeJS + Express, Typescript y servicios REST. Mis habilidades en la gestión de bases de datos abarcan PostgreSQL y MongoDB, destacando en el diseño e implementación. <br/><br/> Mi experiencia incluye la implementación de pruebas unitarias y la gestión eficiente de proyectos bajo metodologías ágiles. Además, he optimizado proyectos para SEO, asegurando un posicionamiento destacado en motores de búsqueda. <br/><br/> Me apasiona la tecnología y me encanta trabajar en proyectos que me permitan aprender y crecer profesionalmente. Estoy siempre buscando nuevos desafíos y estoy dispuesto a enfrentar nuevos retos y problemas para mejorar mis habilidades y ofrecer soluciones de alta calidad.",
       "skillsTitle": "Mis habilidades",
       "workExperienceTitle": "Experiencia laboral",
       "workExperienceSubText": "Lo que he hecho hasta ahora:",
