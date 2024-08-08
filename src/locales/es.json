@@ -48,6 +48,23 @@
       "workExperienceTitle": "Experiencia laboral",
       "workExperienceSubText": "Lo que he hecho hasta ahora:",
       "workExperience": {
+        "ciomprix": {
+          "date": "Marzo 2024 - Agosto 2024",
+          "responsabilites": [
+            "Diseñar y documentar diagramas de arquitectura, componentes y modelos respectivos según los requerimientos definidos para el sistema de información.",
+            "Diseñar, implementar y desarrollar API (ciclo de vida de desarrollo de software completo desde el diseño hasta la implementación).",
+            "Diseñar, implementar y mantener bases de datos.",
+            "Aplicar prácticas de Clean Code y Clean Architecture para garantizar un código eficiente y fácil de mantener según la arquitectura para el Sistema de información del cliente.",
+            "Gestión de repositorios de código en la herramienta GitHub.",
+            "Despliegue de software (Entornos de pruebas y producción) para el respectivo funcionamiento del sistema.",
+            "Realizar la correspondiente Documentación técnica.",
+            "Realizar las respectivas pruebas de integración diseñadas para el sistema de información del cliente.",
+            "Comunicarse con los respectivos equipos que hacen parte del sistema de información del cliente para optimizar el flujo de trabajo.",
+            "Sugerir mejores técnicas y funciones para agregar valor al sistema de información del cliente.",
+            "Realizar revisiones de diseño y revisiones de código para mantener una alta calidad.",
+            "Identificar problemas u errores de la interfaz de usuario e idear soluciones eficientes para el sistema de información del cliente."
+          ]
+        },
         "gcf": {
           "date": "Junio 2022 - Diciembre 2023",
           "responsabilites": [

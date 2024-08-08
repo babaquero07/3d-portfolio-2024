@@ -22,6 +22,7 @@ import {
   henry,
   btp,
   gcf,
+  ciomprix,
   spotify,
   pokemon,
   rick,
@@ -144,6 +145,13 @@ export const experiences = [
     title: "Frontend Developer",
     company_name: "GCF AprendeLibre",
     icon: gcf,
+    iconBg: "#FFF",
+  },
+  {
+    id: "ciomprix",
+    title: "Full Stack developer",
+    company_name: "Ciomprix",
+    icon: ciomprix,
     iconBg: "#FFF",
   },
 ];

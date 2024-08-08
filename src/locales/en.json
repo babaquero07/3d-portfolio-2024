@@ -48,6 +48,23 @@
       "workExperienceTitle": "Work experience",
       "workExperienceSubText": "What I have done so far:",
       "workExperience": {
+        "ciomprix": {
+          "date": "March 2024 - August 2024",
+          "responsabilites": [
+            "Design and document architecture diagrams, components, and respective models according to the defined requirements for the information system.",
+            "Design, implement, and develop APIs (full software development lifecycle from design to implementation).",
+            "Design, implement, and maintain databases.",
+            "Apply Clean Code and Clean Architecture practices to ensure efficient and maintainable code according to the client's information system architecture.",
+            "Manage code repositories using GitHub.",
+            "Deploy software (testing and production environments) for the proper functioning of the system.",
+            "Create the corresponding technical documentation.",
+            "Perform integration tests designed for the client's information system.",
+            "Communicate with the respective teams involved in the client's information system to optimize the workflow.",
+            "Suggest better techniques and features to add value to the client's information system.",
+            "Conduct design reviews and code reviews to maintain high quality.",
+            "Identify UI issues or bugs and devise efficient solutions for the client's information system."
+          ]
+        },
         "gcf": {
           "date": "June 2022 - December 2023",
           "responsabilites": [

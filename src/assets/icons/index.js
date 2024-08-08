@@ -34,6 +34,7 @@ import soporte from "./soporte.svg";
 import henry from "./henry.webp";
 import btp from "./btp.jpeg";
 import gcf from "./gcf.svg";
+import ciomprix from "./ciomprix-icon.png";
 
 import spotify from "./spotify.svg";
 import pokemon from "./pokemon.png";
@@ -82,6 +83,7 @@ export {
   henry,
   btp,
   gcf,
+  ciomprix,
   spotify,
   pokemon,
   rick,
