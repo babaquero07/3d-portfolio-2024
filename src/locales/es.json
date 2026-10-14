@@ -43,7 +43,7 @@
     },
     "about": {
       "title": "Hola, soy <span class='blue-gradient_text font-semibold drop-shadow'>Alexander Baquero</span>",
-      "profileDescription": "Como desarrollador web, he cultivado habilidades técnicas y logros notables. En el frontend, he trabajado con tecnologías clave como HTML, CSS y JavaScript, utilizando frameworks como React, Next.js y Vue 3. <br/><br/> En el backend, he contribuido al desarrollo sólido utilizando NodeJS + Express, Typescript y servicios REST. Mis habilidades en la gestión de bases de datos abarcan PostgreSQL y MongoDB, destacando en el diseño e implementación. <br/><br/> Mi experiencia incluye la implementación de pruebas unitarias y la gestión eficiente de proyectos bajo metodologías ágiles. Además, he optimizado proyectos para SEO, asegurando un posicionamiento destacado en motores de búsqueda. <br/><br/> Me apasiona la tecnología y me encanta trabajar en proyectos que me permitan aprender y crecer profesionalmente. Estoy siempre buscando nuevos desafíos y estoy dispuesto a enfrentar nuevos retos y problemas para mejorar mis habilidades y ofrecer soluciones de alta calidad.",
+      "profileDescription": "Desarrollador de software con más de 3 años de experiencia construyendo aplicaciones web escalables y optimizadas. Especializado en frontend (React, Next.js, Vue 3) y backend (Node.js, NestJS, Express), con sólido dominio de bases de datos SQL/NoSQL, arquitecturas modernas y metodologías ágiles. Experiencia comprobada implementando mejoras de rendimiento, integrando servicios cloud (GCP) y colaborando con equipos multidisciplinarios para entregar soluciones de alto impacto.",
       "skillsTitle": "Mis habilidades",
       "workExperienceTitle": "Experiencia laboral",
       "workExperienceSubText": "Lo que he hecho hasta ahora:",
@@ -93,15 +93,6 @@
             "Delegar las consultas a el canal de apoyo apropiado.",
             "Diagnóstico y solución de problemas de los clientes.",
             "Estar al día en los productos y servicios de la empresa."
-          ]
-        },
-        "henryTA": {
-          "date": "Enero 2022 - Marzo 2022",
-          "responsabilites": [
-            "Coordinar a un grupo de estudiantes para lograr la integración al grupo de estudio.",
-            "Orientar a los estudiantes en los primeros pasos de la cursada.",
-            "Asistir la resolución de ejercicios y promover la colaboración grupal (Pair Programming).",
-            "Proponer ideas para la mejora de los procesos del Bootcamp."
           ]
         }
       },

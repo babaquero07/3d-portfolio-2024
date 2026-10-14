@@ -43,7 +43,7 @@
     },
     "about": {
       "title": "Hi, I'm <span class='blue-gradient_text font-semibold drop-shadow'>Alexander Baquero</span>",
-      "profileDescription": "As a web developer, I have cultivated technical skills and achieved notable milestones. On the frontend, I have worked with key technologies such as HTML, CSS, and JavaScript, utilizing frameworks like React, Next.js, and Vue 3. <br/><br/> In the backend, I have contributed to robust development using NodeJS + Express, Typescript, and REST services. My database management skills encompass PostgreSQL and MongoDB, with a focus on design and implementation. <br/><br/> My experience includes the implementation of unit tests and efficient project management under agile methodologies. Additionally, I have optimized projects for SEO, ensuring prominent positioning in search engines. I am passionate about technology and enjoy working on projects that allow me to learn and grow professionally. <br/><br/> I am always seeking new challenges, ready to tackle new problems to enhance my skills and deliver high-quality solutions",
+      "profileDescription": "Software developer with over 3 years of experience building scalable and optimized web applications. Specialized in frontend (React, Next.js, Vue 3) and backend (Node.js, NestJS, Express) development, with a strong command of SQL/NoSQL databases, modern architectures, and agile methodologies. Proven track record implementing performance improvements, integrating cloud services (GCP), and collaborating with multidisciplinary teams to deliver high-impact solutions.",
       "skillsTitle": "My skills",
       "workExperienceTitle": "Work experience",
       "workExperienceSubText": "What I have done so far:",
@@ -93,15 +93,6 @@
             "Escalating inquiries to the appropriate support channel.",
             "Diagnosing and resolving customer issues.",
             "Staying up-to-date on company products and services."
-          ]
-        },
-        "henryTA": {
-          "date": "January 2022 - March 2022",
-          "responsabilites": [
-            "Coordinating a group of students to achieve integration within the study group.",
-            "Guiding students in their initial steps of the course.",
-            "Assisting in exercise resolution and promoting group collaboration (Pair Programming).",
-            "Proposing ideas for improving Bootcamp processes."
           ]
         }
       },

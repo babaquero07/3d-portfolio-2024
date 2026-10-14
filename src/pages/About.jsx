@@ -23,6 +23,7 @@ const About = () => {
       }),
     };
   });
+  console.log("🚀 ~ About ~ workExperiences:", workExperiences);
 
   return (
     <>

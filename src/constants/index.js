@@ -127,13 +127,6 @@ export const experiences = [
     iconBg: "#2b122b",
   },
   {
-    id: "henryTA",
-    title: "Bootcamp Assistant (TA) for Full-Stack Development students",
-    company_name: "Henry",
-    icon: henry,
-    iconBg: "#000",
-  },
-  {
     id: "btp",
     title: "FullStack Developer",
     company_name: "BTP Aquaforjas",
